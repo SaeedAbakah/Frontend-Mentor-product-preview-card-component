@@ -30,7 +30,7 @@ body {
 .gridContainer {
     display: grid;
     max-width: 40rem;
-    max-height: 60rem;
+    max-height: 50rem;
     margin: 5% 10%;
     grid-template-columns: 50% 50%;
 }
