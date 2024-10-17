@@ -65,7 +65,7 @@ h1{
 
 .gridTxt {
     background-color: var(--white);
-    padding: 1.7rem;
+    padding: 1.7rem 1.7rem 2.7rem 1.7rem;
     border-radius: 0 10px 10px 0;
 }
 
@@ -88,7 +88,7 @@ del {
     font-size: 16px;
 }
 
-button {
+.cta {
     width: 90%;
     background-color: var(--darkCyan);
     padding: 1.2rem 0;
@@ -97,9 +97,10 @@ button {
     color: var(--white);
     font-size: 16px;
     cursor: pointer;
-}
+    text-align: center;
+    }
 
-button:hover{
+.cta:hover{
     background-color: var(--veryDarkCyan);
 }
 
